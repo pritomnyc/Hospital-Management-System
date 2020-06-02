@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39838FC1-75BA-2D0A-7E6F-EC156754460A" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="VOLUNTEER">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>VOLUNTEER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOPERSON_ID" id="13774064-3966-DE52-E1CF-5B76AC80E4E6">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER</sourceObjSchema>
+<sourceObjName>VOPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14989C12-C39B-346B-38D0-7F5609B7AE09" referredColumn="F4663EB5-2CBE-AA86-94BE-53EB38B60881"/>
+</associations>
+</Column>
+<Column name="INTEREST_ID" id="06134057-AEAD-2A62-F305-AD590A906870">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER</sourceObjSchema>
+<sourceObjName>INTEREST_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A7B6DA9-4FB5-B095-5468-0BEA272B7828" referredColumn="BAB3C02A-25CC-446B-1D66-E09D3B371454"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4661258D-FFAB-867E-C2BA-C83B9E796FE0" name="VOPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>VOPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13774064-3966-DE52-E1CF-5B76AC80E4E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="140056A9-32EC-BE65-C748-9D087D0D7EF5" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="VOPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>VOPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13774064-3966-DE52-E1CF-5B76AC80E4E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="261867D4-DE54-CA5B-5151-B21C1DCD504F" name="SYS_C0011579">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06134057-AEAD-2A62-F305-AD590A906870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B010A12-B53B-A87F-A709-C0B7F4405B0B" name="VOPERSON_ID_FK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:48 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13774064-3966-DE52-E1CF-5B76AC80E4E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

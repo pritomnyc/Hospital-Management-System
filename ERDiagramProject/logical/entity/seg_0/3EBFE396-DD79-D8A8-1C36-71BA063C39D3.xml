@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EBFE396-DD79-D8A8-1C36-71BA063C39D3" name="PATIENT INSURANCE COVERAGE">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>CA15DCD5-54CA-CF33-AC14-6FAB6765C06D</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAPERSON ID" id="B0E3CFAC-4CD3-D7DD-4527-9DCE73FEF88C">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>4070D4AD-1E56-327D-031A-F4F239D8475B</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<referedAttribute>3F35609A-F407-C6B8-425C-98A05C359A18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSURANCE COMPANY ID" id="AD76024B-BC88-3031-2421-F7275CAA766D">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>58A8D4CF-D289-1558-8F68-2BBFFB4FD10D</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<referedAttribute>0E45E031-60AF-6068-4F9F-BC83400103C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3EF1FE7-62B1-C7FC-6F94-597069E9E370" name="PATIENT INSURANCE COVERAGE PK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>79B1A9D7-7182-F7E6-698E-27480A0C7E7F</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0E3CFAC-4CD3-D7DD-4527-9DCE73FEF88C</attributeRef>
+<attributeRef>AD76024B-BC88-3031-2421-F7275CAA766D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

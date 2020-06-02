@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07E73C77-1352-9ABC-B7AC-E7D7EB8B620A" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="INSURANCE_COMPANY">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>INSURANCE_COMPANY</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:49 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSURANCE_COMPANY_ID" id="365D802A-5EF2-3FB4-C9D1-A9A8C4B58618">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>INSURANCE_COMPANY</sourceObjSchema>
+<sourceObjName>INSURANCE_COMPANY_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:49 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSURANCE_COMPANY_NAME" id="0C8F1459-1D5B-DDC3-6895-F281EDC4056C">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>INSURANCE_COMPANY</sourceObjSchema>
+<sourceObjName>INSURANCE_COMPANY_NAME</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:49 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POLICY_NUMBER" id="FE6674B9-F065-1598-312E-76F64CC30FE6">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>INSURANCE_COMPANY</sourceObjSchema>
+<sourceObjName>POLICY_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:49 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSURANCE_PHONE_NUMBER" id="86F944FB-443A-2057-93EA-D6F9D5318C8B">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>INSURANCE_COMPANY</sourceObjSchema>
+<sourceObjName>INSURANCE_PHONE_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:49 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56CD67DC-8A0E-BFCE-1607-C6E94C999075" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="INSURANCE_COMPANY_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011569</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:49 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365D802A-5EF2-3FB4-C9D1-A9A8C4B58618"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

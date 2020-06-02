@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26B24FE9-D4EF-5912-E62B-A91AC6703699" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="CREDIT_CARD">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>CREDIT_CARD</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CREDIT_CARD_NUMBER" id="573C81BB-D1F9-6A7D-A423-8CB0E73C4BA8">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>CREDIT_CARD</sourceObjSchema>
+<sourceObjName>CREDIT_CARD_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,16,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNER_NAME" id="2E88C6FA-E4A8-F074-5FC8-A96C47F41F83">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>CREDIT_CARD</sourceObjSchema>
+<sourceObjName>OWNER_NAME</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERCHANT_NAME" id="69533806-1B84-5210-7030-93C6755DDEA6">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>CREDIT_CARD</sourceObjSchema>
+<sourceObjName>MERCHANT_NAME</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXP_DATE" id="75AD9AFA-6849-F650-677F-281EEEB1CEB5">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>CREDIT_CARD</sourceObjSchema>
+<sourceObjName>EXP_DATE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80EC612B-B771-0161-83F0-F02004572344" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="CREDIT_CARD_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011551</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="573C81BB-D1F9-6A7D-A423-8CB0E73C4BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A85E95CB-7B6F-0921-C20A-6C5A7FC98B04" name="VOLUNTEER ASSIGNED CARE CENTER">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>C0FC06B0-42F0-5B5D-C83F-76F40D5713B5</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VOPERSON ID" id="C8A58805-F0AA-D1A7-6D09-BE4A406EDF9C">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>0EFD1FAE-9B19-7312-B0C9-B1DC08DB6239</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<referedAttribute>F0358305-A295-6C15-D018-AC37CCE5B424</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARE CENTER ID" id="175FDC55-D675-643E-1FAA-A348456BF813">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>999B6326-E921-E7F2-4C6C-6940975FB121</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<referedAttribute>1AF171E3-F263-4C95-5F9C-71D07EE65132</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6580615E-A8EA-D089-00E1-60FA403CC165" name="VOLUNTEER ASSIGNED CARE CENTER PK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>90CE9B85-CD7C-167A-A7BF-039BD3145E3B</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8A58805-F0AA-D1A7-6D09-BE4A406EDF9C</attributeRef>
+<attributeRef>175FDC55-D675-643E-1FAA-A348456BF813</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4C3A2D9-D592-F1FF-7099-B0D42A5093B6" name="EMPLOYEE ASSIGNED CARE CENTER">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>1CFAB775-CA4E-8FE8-25DD-6B8C12E8F816</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPERSON ID" id="9E64940E-D06A-AAAA-F2B0-B45A99233489">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>DEE902DF-0FCB-2FAE-C631-00B34B78E83F</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<referedAttribute>07E9CAB9-F244-4FDA-47F0-7ADDDC4FF781</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARE CENTER ID" id="A3C8375D-A0C0-F685-5DBD-C41CF9903802">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>DDF8535E-46CC-6EDE-A53E-7EB1029E0106</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<referedAttribute>1AF171E3-F263-4C95-5F9C-71D07EE65132</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOURS WORKED" id="3433C814-CAA6-7BB9-C2B0-66779353CA95">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>735F4C96-2C9E-76EE-39A2-A059753CE6D9</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B945B2B3-B2CB-90F8-8557-4BC06F4CD7D6" name="EMPLOYEE ASSIGNED CARE CENTER PK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>8EE681D9-2DE2-7A9F-257B-9630C49FDDAA</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E64940E-D06A-AAAA-F2B0-B45A99233489</attributeRef>
+<attributeRef>A3C8375D-A0C0-F685-5DBD-C41CF9903802</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

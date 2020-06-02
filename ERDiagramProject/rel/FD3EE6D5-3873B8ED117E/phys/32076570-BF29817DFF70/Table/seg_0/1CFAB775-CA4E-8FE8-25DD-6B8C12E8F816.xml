@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMPLOYEE_ASSIGNED_CARE_CENTER" directorySegmentName="seg_0" id="1CFAB775-CA4E-8FE8-25DD-6B8C12E8F816">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPERSON_ID" id="19F12187-0E50-C122-4002-3258FFE8ACCB">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOURS_WORKED" id="735F4C96-2C9E-76EE-39A2-A059753CE6D9">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARE_CENTER_ID" id="AB99EA9D-3668-62BB-5E97-A32677B554D1">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011628" id="52E48DAC-00DB-9E13-0E93-4444936AD283">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011627" id="DB54897A-A197-BBE3-E07C-D1BD9928BB9B">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYEE_ASSIGNED_CARE_CENTER_PK" id="8EE681D9-2DE2-7A9F-257B-9630C49FDDAA">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C39C934-863D-1B26-093A-03B2F210644C" containerWithKeyObject="ACEC365A-AE0E-6CEC-3D46-EE92646CB9F1" localFKIndex="2547D19C-ECB6-66AD-79DF-FC2B388774A0" name="SYS_C0011564">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011564</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:13 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<referredTableLongName>SYS.CREDIT_CARD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26B24FE9-D4EF-5912-E62B-A91AC6703699</referredTableID>
+<keyObject>80EC612B-B771-0161-83F0-F02004572344</keyObject>
+<referredKeyID>80EC612B-B771-0161-83F0-F02004572344</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CREDIT_CARD_NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

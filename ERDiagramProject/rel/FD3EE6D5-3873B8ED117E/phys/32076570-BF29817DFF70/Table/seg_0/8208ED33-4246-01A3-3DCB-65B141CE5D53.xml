@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BED_TYPE" directorySegmentName="seg_0" id="8208ED33-4246-01A3-3DCB-65B141CE5D53">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:45 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BED_TYPE_DESCRIPTION" id="5682C808-CE10-5C98-E6EF-EAC02367C4B6">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:46 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BED_TYPE_ID" id="5C64D44F-31B5-C764-1736-7D25B42C7700">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:46 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BED_TYPE_PK" id="8E5D3B4E-59E4-F67F-A47A-6C9D2A98837A">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:46 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

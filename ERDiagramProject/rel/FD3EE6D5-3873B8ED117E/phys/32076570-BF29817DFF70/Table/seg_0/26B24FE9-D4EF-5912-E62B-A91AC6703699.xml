@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CREDIT_CARD" directorySegmentName="seg_0" id="26B24FE9-D4EF-5912-E62B-A91AC6703699">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OWNER_NAME" id="2E88C6FA-E4A8-F074-5FC8-A96C47F41F83">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREDIT_CARD_NUMBER" id="573C81BB-D1F9-6A7D-A423-8CB0E73C4BA8">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MERCHANT_NAME" id="69533806-1B84-5210-7030-93C6755DDEA6">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXP_DATE" id="75AD9AFA-6849-F650-677F-281EEEB1CEB5">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CREDIT_CARD_PK" id="80EC612B-B771-0161-83F0-F02004572344">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:51:34 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

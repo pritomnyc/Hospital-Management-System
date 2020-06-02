@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SYS" directorySegmentName="seg_0" id="0FEDD740-49B3-B95C-93EF-DDDB24503205">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:13 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</SchemaObject>

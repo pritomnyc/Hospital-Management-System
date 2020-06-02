@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C7D299C-1763-E0B0-F8C1-E134FDD7DEE2" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="INTEREST">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>INTEREST</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTEREST_ID" id="BAB3C02A-25CC-446B-1D66-E09D3B371454">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>INTEREST</sourceObjSchema>
+<sourceObjName>INTEREST_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTEREST_DESCRIPTION" id="9BEF49DA-FB0D-C15C-2BCA-77AB05753452">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>INTEREST</sourceObjSchema>
+<sourceObjName>INTEREST_DESCRIPTION</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10B0727E-754E-5822-0F25-C74F225AD8BB" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="INTEREST_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011547</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB3C02A-25CC-446B-1D66-E09D3B371454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMPLOYEE" directorySegmentName="seg_0" id="D170089F-7E38-4942-70EE-094052F981B2">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPLOYEE_TYPE" id="29A2DDEB-5372-032B-18E6-8AB0FA93E7A2">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_HIRED" id="2C133534-9AC1-DE9E-5548-3DCB793D2E75">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPERSON_ID" id="35F292FA-ABDE-E2DA-4961-36371A7F96F4">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMPERSON_ID_PK" id="EC07586D-CC03-D105-FE14-B2FD8D6CD517">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPERSON_ID_FK" id="E63B96DC-0718-D5DC-D0E1-71BF97BB4F41">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPERSON_ID_PK" id="C0747511-0FD2-6162-144D-60CA2E54BE9B">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:58 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<existingIndex>EC07586D-CC03-D105-FE14-B2FD8D6CD517</existingIndex>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

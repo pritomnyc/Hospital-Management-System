@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERDiagramProject" id="F90EACB4-087E-9614-4C63-65D4C14DFA0D" version="3.5">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:37:42 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F90EACB4-087E-9614-4C63-65D4C14DFA0D</designId>
+</OSDM_Design>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PATIENT" directorySegmentName="seg_0" id="E7DB6D3D-B90A-1C86-D526-48DDA1A960C2">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMERGENCY_CONTACT_NAME" id="30B7BAEC-F386-A033-B719-47C370192CC6">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIENT_TYPE" id="67104B89-3602-5D28-B059-A2A8F38C48BD">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMERGENCY_CONTACT_NUMBER" id="AFCA68EC-05AB-03C6-1E0B-55116E5CFB59">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_COTACT_DATE" id="BD0C8983-30C5-6612-67AF-8A687B5D29AE">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHPERSON_ID" id="ED34C96F-9B65-D54A-331B-955867C00D59">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAPERSON_ID" id="FF789B76-8BB1-C355-49C9-977E2E91185B">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PAPERSON_ID_PK" id="968A30EA-E6BB-4117-C23C-0265242A2B3F">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAPERSON_ID_FK" id="DE5A8B66-D460-0B0F-7263-FE0429132C63">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011560" id="E8F7E0A1-0AF1-D76F-2579-AC41150ECEDA">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAPERSON_ID_PK" id="16925C43-7279-70ED-DEBD-B4301605AC69">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<existingIndex>968A30EA-E6BB-4117-C23C-0265242A2B3F</existingIndex>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC1D5DE3-BE98-EE32-3A14-6B63E1472695" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="SKILL">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SKILL</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOPERSON_ID" id="19C6921C-4749-7876-C391-1B6B9EE12A6E">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SKILL</sourceObjSchema>
+<sourceObjName>VOPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FA27473-0C3D-3F86-FE6B-3E13D8C9411B" referredColumn="13774064-3966-DE52-E1CF-5B76AC80E4E6"/>
+</associations>
+</Column>
+<Column name="SKILL_ID" id="E5F20940-300C-1474-4232-16287223833B">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SKILL</sourceObjSchema>
+<sourceObjName>SKILL_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC4035DD-D39E-031D-2F0D-552A5FB045A6" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="SKILL_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011582</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19C6921C-4749-7876-C391-1B6B9EE12A6E"/>
+<colUsage columnID="E5F20940-300C-1474-4232-16287223833B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9BE38F3-FB04-E4CF-36A8-3DB44CB8E7D5" name="SYS_C0011583">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19C6921C-4749-7876-C391-1B6B9EE12A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

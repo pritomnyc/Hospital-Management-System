@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="4FCC5AEC-6FA6-6C08-4C2E-0E2BB6A840BF">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:37:42 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OPAPERSON_ID_FK" directorySegmentName="seg_0" id="7E85479C-1222-2F5D-CE8F-06D3E9EE8B85">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>E2E8E0FA-1291-BC84-F8B6-8F88FD7BCE66</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<sourcePk>B777F10C-9441-AA23-2815-99EA2650AA19</sourcePk>
+<dominantRole>4E1301FF-6304-D143-92B3-D48B3D0B14F0</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E1301FF-6304-D143-92B3-D48B3D0B14F0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C6F47043-B6C5-56BE-670D-ADFBB1D2C665</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

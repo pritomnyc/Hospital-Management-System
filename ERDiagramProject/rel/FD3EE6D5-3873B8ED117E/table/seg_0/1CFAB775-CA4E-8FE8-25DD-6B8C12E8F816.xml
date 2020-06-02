@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CFAB775-CA4E-8FE8-25DD-6B8C12E8F816" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="EMPLOYEE_ASSIGNED_CARE_CENTER">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ASSIGNED_CARE_CENTER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPERSON_ID" id="19F12187-0E50-C122-4002-3258FFE8ACCB">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>EMPLOYEE_ASSIGNED_CARE_CENTER</sourceObjSchema>
+<sourceObjName>EMPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B08249F-9F4B-0C5C-0971-270FC33D8324" referredColumn="35F292FA-ABDE-E2DA-4961-36371A7F96F4"/>
+</associations>
+</Column>
+<Column name="CARE_CENTER_ID" id="AB99EA9D-3668-62BB-5E97-A32677B554D1">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>EMPLOYEE_ASSIGNED_CARE_CENTER</sourceObjSchema>
+<sourceObjName>CARE_CENTER_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3B810D6-BEB8-82D6-0383-947559064613" referredColumn="046868E1-780B-C8C9-D9A9-7E1BD54AC7BE"/>
+</associations>
+</Column>
+<Column name="HOURS_WORKED" id="735F4C96-2C9E-76EE-39A2-A059753CE6D9">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>EMPLOYEE_ASSIGNED_CARE_CENTER</sourceObjSchema>
+<sourceObjName>HOURS_WORKED</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EE681D9-2DE2-7A9F-257B-9630C49FDDAA" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="EMPLOYEE_ASSIGNED_CARE_CENTER_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011626</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19F12187-0E50-C122-4002-3258FFE8ACCB"/>
+<colUsage columnID="AB99EA9D-3668-62BB-5E97-A32677B554D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB54897A-A197-BBE3-E07C-D1BD9928BB9B" name="SYS_C0011627">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19F12187-0E50-C122-4002-3258FFE8ACCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52E48DAC-00DB-9E13-0E93-4444936AD283" name="SYS_C0011628">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:40:07 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB99EA9D-3668-62BB-5E97-A32677B554D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

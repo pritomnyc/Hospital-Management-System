@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA15DCD5-54CA-CF33-AC14-6FAB6765C06D" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PATIENT_INSURANCE_COVERAGE">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PATIENT_INSURANCE_COVERAGE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAPERSON_ID" id="759E8B78-7764-B67E-D656-8C53E408C268">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PATIENT_INSURANCE_COVERAGE</sourceObjSchema>
+<sourceObjName>PAPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D54A1403-E509-1436-FD5A-0547774885D0" referredColumn="FF789B76-8BB1-C355-49C9-977E2E91185B"/>
+</associations>
+</Column>
+<Column name="INSURANCE_COMPANY_ID" id="63B89887-8170-898B-B700-FDCD0B476E9B">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PATIENT_INSURANCE_COVERAGE</sourceObjSchema>
+<sourceObjName>INSURANCE_COMPANY_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1909F1AA-D8EE-E0B6-35F5-286CC8E35270" referredColumn="365D802A-5EF2-3FB4-C9D1-A9A8C4B58618"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79B1A9D7-7182-F7E6-698E-27480A0C7E7F" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PATIENT_INSURANCE_COVERAGE_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011572</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759E8B78-7764-B67E-D656-8C53E408C268"/>
+<colUsage columnID="63B89887-8170-898B-B700-FDCD0B476E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87D7061D-D33B-2E3E-D09B-88C15C528F05" name="SYS_C0011573">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759E8B78-7764-B67E-D656-8C53E408C268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7AEA55F-A3E8-39D9-EC5C-85B65158AB95" name="SYS_C0011574">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:31 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B89887-8170-898B-B700-FDCD0B476E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

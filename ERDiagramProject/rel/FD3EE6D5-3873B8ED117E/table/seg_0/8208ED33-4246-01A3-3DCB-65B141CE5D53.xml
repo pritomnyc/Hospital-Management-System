@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8208ED33-4246-01A3-3DCB-65B141CE5D53" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="BED_TYPE">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>BED_TYPE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:45 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BED_TYPE_ID" id="5C64D44F-31B5-C764-1736-7D25B42C7700">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>BED_TYPE</sourceObjSchema>
+<sourceObjName>BED_TYPE_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:46 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BED_TYPE_DESCRIPTION" id="5682C808-CE10-5C98-E6EF-EAC02367C4B6">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>BED_TYPE</sourceObjSchema>
+<sourceObjName>BED_TYPE_DESCRIPTION</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:46 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E5D3B4E-59E4-F67F-A47A-6C9D2A98837A" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="BED_TYPE_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011607</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:46 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C64D44F-31B5-C764-1736-7D25B42C7700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

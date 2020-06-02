@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7B84DB5-A224-49BE-888B-33E13C9CC076" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="VOLUNTEER_SUPERVISOR">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>VOLUNTEER_SUPERVISOR</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PHPERSON_ID" id="C8E1ADD2-9D4B-1F56-2E9D-751E4C2BB203">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>PHPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29D7A1E7-C911-9521-AAED-116DD1700CA1" referredColumn="EB43CFDF-C587-A6E3-5377-1712B59E8AAB"/>
+</associations>
+</Column>
+<Column name="EMPERSON_ID" id="EF2ACEB8-5BB6-FEB8-5F80-9242199A37F9">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>EMPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39DFB07C-84B7-5945-FBC5-7715EDC705A3" referredColumn="35F292FA-ABDE-E2DA-4961-36371A7F96F4"/>
+</associations>
+</Column>
+<Column name="VOPERSON_ID" id="449FC6D0-F4DD-2A7F-6DAC-4B5E6164FBCA">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>VOPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A15B1B2-ADAB-3EBA-8F66-5E8F2B7DB909" referredColumn="13774064-3966-DE52-E1CF-5B76AC80E4E6"/>
+</associations>
+</Column>
+<Column name="BEGIN_DATE" id="51BFEA65-2710-2B38-E533-551D021088ED">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>BEGIN_DATE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="037768F3-2A51-7B43-04E3-ED31843CD2E5">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOURS_WORKED" id="329B8B5A-97A2-8819-B7DC-AB6BE38AA021">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>HOURS_WORKED</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORK_UNIT_ID" id="B3B58DE7-E905-9F4B-4318-CF44CD2BC567">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>VOLUNTEER_SUPERVISOR</sourceObjSchema>
+<sourceObjName>WORK_UNIT_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EC4BD90-B739-6624-32EA-62150D4BFFBF" referredColumn="AED66E25-F51B-A7EE-433C-C8D0E1FC2EE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38266F8B-3F3C-B583-E656-7296BDC6E16C" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="VOLUNTEER_SUPERVISOR_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011643</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8E1ADD2-9D4B-1F56-2E9D-751E4C2BB203"/>
+<colUsage columnID="449FC6D0-F4DD-2A7F-6DAC-4B5E6164FBCA"/>
+<colUsage columnID="EF2ACEB8-5BB6-FEB8-5F80-9242199A37F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2B188BF-9AA7-73B1-7E9D-79336E2B5BC9" name="SYS_C0011644">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8E1ADD2-9D4B-1F56-2E9D-751E4C2BB203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E60D304-FCB5-821E-D065-CAF77701A4FF" name="SYS_C0011645">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF2ACEB8-5BB6-FEB8-5F80-9242199A37F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EFCC5F5-A864-1DDE-68C3-9570BBD92D28" name="SYS_C0011646">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="449FC6D0-F4DD-2A7F-6DAC-4B5E6164FBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03181847-F15E-6731-11B7-CE22747E4BD2" name="SYS_C0011647">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:02 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3B58DE7-E905-9F4B-4318-CF44CD2BC567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

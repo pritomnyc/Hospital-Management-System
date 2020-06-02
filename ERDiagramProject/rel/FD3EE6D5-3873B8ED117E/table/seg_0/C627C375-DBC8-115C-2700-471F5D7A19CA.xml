@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C627C375-DBC8-115C-2700-471F5D7A19CA" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PHYSICIAN">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PHYSICIAN</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PHPERSON_ID" id="EB43CFDF-C587-A6E3-5377-1712B59E8AAB">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PHYSICIAN</sourceObjSchema>
+<sourceObjName>PHPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F488401-924A-0338-EF07-0B857BA604F4" referredColumn="F4663EB5-2CBE-AA86-94BE-53EB38B60881"/>
+</associations>
+</Column>
+<Column name="PHYSICIAN_PAGE_NUMBER" id="66E1B573-3690-45E9-D5FF-6028BE0B5D41">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PHYSICIAN</sourceObjSchema>
+<sourceObjName>PHYSICIAN_PAGE_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHYSICIAN_DEA_NUMBER" id="358C6EA2-2077-0080-F031-303ED8C9A817">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PHYSICIAN</sourceObjSchema>
+<sourceObjName>PHYSICIAN_DEA_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95528E76-D86D-31CF-3F17-920500EF025B" name="PHPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PHPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB43CFDF-C587-A6E3-5377-1712B59E8AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A972862-7520-388E-3A1D-55F86E7C7D38" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PHYSICIAN_PHYSICIAN_DEA_NUMBER_UN">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011539</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358C6EA2-2077-0080-F031-303ED8C9A817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB7EC488-2C22-0C74-B7C0-95738CBF0726" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PHPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PHPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB43CFDF-C587-A6E3-5377-1712B59E8AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE91CBB-714E-4B42-1B0B-36366388ECE1" name="PHPERSON_ID_FK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:28 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB43CFDF-C587-A6E3-5377-1712B59E8AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

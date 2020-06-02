@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACEC365A-AE0E-6CEC-3D46-EE92646CB9F1" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PATIENT_CREDIT_CARD">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PATIENT_CREDIT_CARD</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:12 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CREDIT_CARD_NUMBER" id="80737350-AC57-9FB9-A5F7-C58991CDEE4C">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PATIENT_CREDIT_CARD</sourceObjSchema>
+<sourceObjName>CREDIT_CARD_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:12 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,16,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C39C934-863D-1B26-093A-03B2F210644C" referredColumn="573C81BB-D1F9-6A7D-A423-8CB0E73C4BA8"/>
+</associations>
+</Column>
+<Column name="PAPERSON_ID" id="16612DE7-42D2-9A16-C0AC-954A0F4DE23A">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PATIENT_CREDIT_CARD</sourceObjSchema>
+<sourceObjName>PAPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:12 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9170402-7E40-13AA-47D3-328B241D51F2" referredColumn="FF789B76-8BB1-C355-49C9-977E2E91185B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60E34152-CC85-8AAD-C92D-FFEC60A3B2AE" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PATIENT_CREDIT_CARD_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011563</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:12 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80737350-AC57-9FB9-A5F7-C58991CDEE4C"/>
+<colUsage columnID="16612DE7-42D2-9A16-C0AC-954A0F4DE23A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2547D19C-ECB6-66AD-79DF-FC2B388774A0" name="SYS_C0011564">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:13 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80737350-AC57-9FB9-A5F7-C58991CDEE4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FD60F0F-C29B-119C-0A72-80436BD21618" name="SYS_C0011565">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:41:13 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16612DE7-42D2-9A16-C0AC-954A0F4DE23A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

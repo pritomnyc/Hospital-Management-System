@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20011A28-907B-BFD2-929B-C432EE59977F" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="RESIDENT_PATIENT">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>RESIDENT_PATIENT</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RPAPERSON_ID" id="AF17039B-B287-D884-AACD-971A1D293AF0">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>RESIDENT_PATIENT</sourceObjSchema>
+<sourceObjName>RPAPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14D239A0-C240-D385-EB9E-ED78CCE00CC3" referredColumn="FF789B76-8BB1-C355-49C9-977E2E91185B"/>
+</associations>
+</Column>
+<Column name="DATE_ADMITTED" id="58D4502F-7184-87BD-45CF-1AE60CE387E5">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>RESIDENT_PATIENT</sourceObjSchema>
+<sourceObjName>DATE_ADMITTED</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DISCHARGE" id="7CEBE034-3241-64FF-321D-CF6392AF2104">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>RESIDENT_PATIENT</sourceObjSchema>
+<sourceObjName>DATE_DISCHARGE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BED_NUMBER" id="A3F5CB38-F26E-5CDF-E98C-C56926280AB7">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>RESIDENT_PATIENT</sourceObjSchema>
+<sourceObjName>BED_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E9A0E34-4305-356E-C303-2EDFA0E6CD84" referredColumn="165008AE-F123-E23C-FD54-0F5A24F12279"/>
+</associations>
+</Column>
+<Column name="ROOM_NUMBER" id="DA064516-9FC8-1F0C-601C-38C875B43947">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>RESIDENT_PATIENT</sourceObjSchema>
+<sourceObjName>ROOM_NUMBER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E9A0E34-4305-356E-C303-2EDFA0E6CD84" referredColumn="89D244DF-E248-28D9-F564-98E3D78A2692"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C25B6244-5EBE-DAB5-8070-487703D47990" name="RPAPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>RPAPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF17039B-B287-D884-AACD-971A1D293AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBC13477-FE40-5577-3DB8-8E4FBA726E33" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="RPAPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>RPAPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF17039B-B287-D884-AACD-971A1D293AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8040DD2-6ADE-2329-C524-CDB51EF8F8B1" name="RPAPERSON_ID_FK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF17039B-B287-D884-AACD-971A1D293AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFB17CAB-3899-EC49-BE67-EF01293E36B7" name="SYS_C0011622">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:45:09 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F5CB38-F26E-5CDF-E98C-C56926280AB7"/>
+<colUsage columnID="DA064516-9FC8-1F0C-601C-38C875B43947"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

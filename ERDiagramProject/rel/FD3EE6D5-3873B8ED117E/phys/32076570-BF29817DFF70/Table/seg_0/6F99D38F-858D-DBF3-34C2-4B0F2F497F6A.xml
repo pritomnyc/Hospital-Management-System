@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PERSON" directorySegmentName="seg_0" id="6F99D38F-858D-DBF3-34C2-4B0F2F497F6A">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:13 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STREET_ADDRESS" id="1253EBD6-D6D0-2D6A-D8FA-EE9347F25BD9">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_PATIENT" id="26D75F17-8654-D1D5-9C97-38E928BE7311">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_VOLUNTEER" id="3F13A182-1CDA-2645-1F77-081674696F1A">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="5905B0B6-D6BB-BCD7-FD68-769F2A91BA05">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY" id="66C234FC-36BE-1130-DB3E-BD05A7EB0141">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_EMPLOYEE" id="810895B6-EFA3-80EC-7399-D737A3EAA6EA">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="9365FABB-5371-17A7-E7F7-1F64096B65E7">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIRTH_DATE" id="A3D5F33E-A4BF-6DE8-5BA4-522FFA60F5DC">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIDDLE_NAME" id="A64B7089-747A-24F5-FD29-407504A25590">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_PHYSICIAN" id="B3EA659A-C20C-2551-C873-75F4CF5F071E">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="B845D66A-C5F3-983C-C27B-D031171883E7">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER" id="BF4D17AD-A052-FAE8-4450-CC0EF9327C18">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZIP_CODE" id="C01CE57E-1390-2650-0E73-AE66A4195449">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="C2964276-2014-1DF3-6EFB-3D3969D1D302">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="F1C72F21-6B0D-A467-B448-06667F2AB77C">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSON_ID" id="F4663EB5-2CBE-AA86-94BE-53EB38B60881">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="FC79CA3E-E955-E366-8808-12CE2DA6E3A1">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERSON_PK" id="270A8C30-A7F5-7259-1A42-1DDFE1EBB3F3">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

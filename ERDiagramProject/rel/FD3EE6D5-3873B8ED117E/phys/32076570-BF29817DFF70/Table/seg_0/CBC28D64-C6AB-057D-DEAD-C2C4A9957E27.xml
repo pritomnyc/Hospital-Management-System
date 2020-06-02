@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BED" directorySegmentName="seg_0" id="CBC28D64-C6AB-057D-DEAD-C2C4A9957E27">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0032D58A-BF20-1B6A-0530-082C5D5BF254</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CARE_CENTER_ID" id="096F6812-5157-19E2-468A-BA510C9B9255">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BED_NUMBER" id="165008AE-F123-E23C-FD54-0F5A24F12279">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BED_TYPE_ID" id="67E70626-B228-09DC-5602-3888539FE322">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOM_NUMBER" id="89D244DF-E248-28D9-F564-98E3D78A2692">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011614" id="5D192641-8610-2301-DA30-8C2E3068BE77">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011613" id="885862AE-2164-37D8-877E-85D7626CF5CF">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BED_PK" id="6F3076C6-46B2-5EA6-867E-11DBCA79C7D5">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:44:40 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<schemaObject>0FEDD740-49B3-B95C-93EF-DDDB24503205</schemaObject>
+<segment>919E4390-2565-F5F2-982A-C90D436D9574</segment>
+<tableSpace>8A99801F-C924-2981-A838-EA0CC74C7701</tableSpace>
+<indexSegment>919E4390-2565-F5F2-982A-C90D436D9574</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD311761-B8C2-D3DC-8F48-EABD3E13EC56" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="OUTPATIENT">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>OUTPATIENT</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:47 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OPAPERSON_ID" id="9A28A1C8-70EE-A0F2-BE63-C6660B97E296">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>OUTPATIENT</sourceObjSchema>
+<sourceObjName>OPAPERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:47 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2E8E0FA-1291-BC84-F8B6-8F88FD7BCE66" referredColumn="FF789B76-8BB1-C355-49C9-977E2E91185B"/>
+</associations>
+</Column>
+<Column name="CHECK_BACK_DATE" id="4FD01B39-E42D-8BDA-21A1-E673DEBDDF80">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>OUTPATIENT</sourceObjSchema>
+<sourceObjName>CHECK_BACK_DATE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:47 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FD9B47E-817A-AFA0-9964-895D27151A55" name="OPAPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>OPAPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:47 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A28A1C8-70EE-A0F2-BE63-C6660B97E296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A573B0-5328-6779-E501-CA758D39285D" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="OPAPERSON_ID_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>OPAPERSON_ID_PK</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:47 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A28A1C8-70EE-A0F2-BE63-C6660B97E296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="475E2924-5850-F5A5-5D23-1B07794411BB" name="OPAPERSON_ID_FK">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:43:47 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A28A1C8-70EE-A0F2-BE63-C6660B97E296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

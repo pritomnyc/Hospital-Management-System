@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACD737DE-D8E1-EB55-B751-64FAAC3990CF" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="WORK_UNIT">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>WORK_UNIT</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:46:21 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WORK_UNIT_ID" id="AED66E25-F51B-A7EE-433C-C8D0E1FC2EE3">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>WORK_UNIT</sourceObjSchema>
+<sourceObjName>WORK_UNIT_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:46:21 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORK_UNIT_DESCRIPTION" id="3628D3D2-C153-0375-C1CE-7A234F2E4379">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>WORK_UNIT</sourceObjSchema>
+<sourceObjName>WORK_UNIT_DESCRIPTION</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:46:21 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7331D46-CAA8-B0B0-2387-C06ABD7F73C9" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="WORK_UNIT_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011635</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:46:21 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AED66E25-F51B-A7EE-433C-C8D0E1FC2EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

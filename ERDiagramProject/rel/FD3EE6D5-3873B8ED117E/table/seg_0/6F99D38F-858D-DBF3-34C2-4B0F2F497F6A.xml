@@ -1,0 +1,270 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F99D38F-858D-DBF3-34C2-4B0F2F497F6A" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PERSON">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PERSON</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:13 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="F4663EB5-2CBE-AA86-94BE-53EB38B60881">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERSON_ID</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="B845D66A-C5F3-983C-C27B-D031171883E7">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="9365FABB-5371-17A7-E7F7-1F64096B65E7">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIDDLE_NAME" id="A64B7089-747A-24F5-FD29-407504A25590">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>MIDDLE_NAME</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_ADDRESS" id="1253EBD6-D6D0-2D6A-D8FA-EE9347F25BD9">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>STREET_ADDRESS</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="FC79CA3E-E955-E366-8808-12CE2DA6E3A1">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="C2964276-2014-1DF3-6EFB-3D3969D1D302">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP_CODE" id="C01CE57E-1390-2650-0E73-AE66A4195449">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>ZIP_CODE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="66C234FC-36BE-1130-DB3E-BD05A7EB0141">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_DATE" id="A3D5F33E-A4BF-6DE8-5BA4-522FFA60F5DC">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>BIRTH_DATE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="BF4D17AD-A052-FAE8-4450-CC0EF9327C18">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="F1C72F21-6B0D-A467-B448-06667F2AB77C">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="5905B0B6-D6BB-BCD7-FD68-769F2A91BA05">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_PATIENT" id="26D75F17-8654-D1D5-9C97-38E928BE7311">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>IS_PATIENT</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_PHYSICIAN" id="B3EA659A-C20C-2551-C873-75F4CF5F071E">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>IS_PHYSICIAN</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_EMPLOYEE" id="810895B6-EFA3-80EC-7399-D737A3EAA6EA">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>IS_EMPLOYEE</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_VOLUNTEER" id="3F13A182-1CDA-2645-1F77-081674696F1A">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>IS_VOLUNTEER</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="270A8C30-A7F5-7259-1A42-1DDFE1EBB3F3" schemaObject="0FEDD740-49B3-B95C-93EF-DDDB24503205" name="PERSON_PK">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011534</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:39:14 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4663EB5-2CBE-AA86-94BE-53EB38B60881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

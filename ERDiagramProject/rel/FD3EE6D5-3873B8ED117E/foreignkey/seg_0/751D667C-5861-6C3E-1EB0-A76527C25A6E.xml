@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="751D667C-5861-6C3E-1EB0-A76527C25A6E" containerWithKeyObject="C0FC06B0-42F0-5B5D-C83F-76F40D5713B5" localFKIndex="36A14023-0580-C637-8E78-E1F920587026" name="SYS_C0011633">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011633</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:55 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<referredTableLongName>SYS.CARE_CENTER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8A0397B-A72A-A81E-A14D-2DF0AF279982</referredTableID>
+<keyObject>EF6BAF35-0263-D72C-AB97-4B2756A45D8B</keyObject>
+<referredKeyID>EF6BAF35-0263-D72C-AB97-4B2756A45D8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CARE_CENTER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

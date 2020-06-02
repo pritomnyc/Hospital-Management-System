@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C0011632" directorySegmentName="seg_0" id="0EFD1FAE-9B19-7312-B0C9-B1DC08DB6239">
+<createdBy>prito</createdBy>
+<createdTime>2020-04-25 17:07:58 UTC</createdTime>
+<generatorID>0068C1DE-76DA-9DCF-D366-88BAFD2956B2</generatorID>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<engineerTo>
+<item key="97083CEC-097E-4392-1DBE-DB39362610BD" value="true"/>
+<item key="D6927382-A18F-28FB-B745-B216489B05DD" value="true"/>
+<item key="FD3EE6D5-5EBB-B96F-ED13-3873B8ED117E" value="true"/>
+</engineerTo>
+<sourcePk>796ED32D-08FC-C4AB-5D36-9FB11FBF4610</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0758E75F-4AB1-55FC-23E9-02BC6761A7DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A85E95CB-7B6F-0921-C20A-6C5A7FC98B04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

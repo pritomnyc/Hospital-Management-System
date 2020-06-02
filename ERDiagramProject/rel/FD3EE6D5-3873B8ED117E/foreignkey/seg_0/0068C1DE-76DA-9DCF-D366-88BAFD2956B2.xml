@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0068C1DE-76DA-9DCF-D366-88BAFD2956B2" containerWithKeyObject="C0FC06B0-42F0-5B5D-C83F-76F40D5713B5" localFKIndex="D1CA8EA9-C03F-F873-6D8B-E8B982E6733F" name="SYS_C0011632">
+<sourceConnName>Final+Project</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C0011632</sourceObjName>
+<createdBy>prito</createdBy>
+<createdTime>2020-04-23 03:42:55 UTC</createdTime>
+<ownerDesignName>ERDiagramProject</ownerDesignName>
+<referredTableLongName>SYS.VOLUNTEER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39838FC1-75BA-2D0A-7E6F-EC156754460A</referredTableID>
+<keyObject>140056A9-32EC-BE65-C748-9D087D0D7EF5</keyObject>
+<referredKeyID>140056A9-32EC-BE65-C748-9D087D0D7EF5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VOPERSON_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
