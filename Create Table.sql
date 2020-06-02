@@ -1,5 +1,5 @@
 --Create Table Person
-
+--New
 CREATE TABLE PERSON
 (
  Person_ID      NUMBER (4)    PRIMARY KEY,
@@ -20,6 +20,7 @@ CREATE TABLE PERSON
  Is_Employee    VARCHAR2 (1)  NOT NULL,
  Is_Volunteer   VARCHAR2 (1)  NOT NULL
 );
+
 
 --Create Table PHYSICIAN
 
